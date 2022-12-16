@@ -1,0 +1,112 @@
+body {
+    background-image: url("M2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    background-color: dimgray;
+   
+  
+    }
+
+    #container {
+        background-color:rgba(110, 112, 110, 0.9);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 600px;
+        height:725;
+        border-radius: 40px;
+        color: white;
+        }
+.one{
+    display: flex;
+    justify-content: space-around;
+}
+.three{
+    border-radius: 30px;  
+    border: 1px solid black;
+}
+         form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin: 20px;
+        }
+   input{
+       font-family: 'Montserrat', sans-serif;
+        padding: 10px;
+        
+    }
+
+    h1{
+       
+       font-family: 'Montserrat', sans-serif;
+        color: #F3D5C0;
+        align-self: center;
+    }
+
+        #addTip{
+            background-color:#86C6F4;
+            border: none;
+            border-radius: 10px;
+            padding: 5px;
+            font-family: 'Montserrat', sans-serif;
+            
+            }
+            
+            #btn{
+            background-color: #F3D5C0;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            margin-top: 10px;
+            font-family: 'Montserrat', sans-serif;
+            }
+
+            #tip{
+               font-family: 'Montserrat', sans-serif;
+                display: none;
+            }
+            #showTotalAmountToPay{
+                display: flex;
+                margin-left: 30px;
+            }
+        #billSplit{
+           font-family: 'Montserrat', sans-serif;
+           background-color:#86C6F4;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid black;
+         
+        }
+
+        #totalTip{
+           font-family: 'Montserrat', sans-serif;
+           background-color:#86C6F4;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid black;
+       
+        }
+        #totalAmount{
+            font-family: 'Montserrat', sans-serif;
+            background-color:#86C6F4;
+            margin: 10px;
+            padding: 15x;
+            border-radius: 10px;
+            border: 1px solid black;
+          
+        }
+        
+    @media all and(max-width:500px){
+h1{
+    font-size: 10px;
+}
+#showTotalAmountToPay{
+    font-size: 10px;
+}
+    }
